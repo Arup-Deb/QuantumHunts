@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIVEKANANDA SHISHU SCHOOL</title>
+    <link rel="stylesheet" href="vsn1.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=poppins:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-headercon">
+        <section class="sub-header">
+            <nav>
+
+                <a href="https://en.wikipedia.org/wiki/Swami_Vivekananda"><img src="swami.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="About us.html">ABOUT US</a></li>
+                        <li><a href="Courses Arup.html">COURSES</a></li>
+                        <li><a href="blog.html">ACHIEVEMENTS</a></li>
+                        <li><a href="login.html">LOGIN/SIGH IN</a></li>
+                        <li><a href="contact us arup.html">CONTACT</a></li>
+
+                    </ul>
+
+
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <br>
+            <br>
+            <br>
+            <h1>
+                Contact us
+            </h1>
+
+        </section>
+        <br>
+
+        <!----- contact us----->
+
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14615.980485991384!2d91.2736683279262!3d23.676132454014706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37538bf08d466b41%3A0x719ff1a8b6511b34!2sVivekananda%20Shishu%20Niketan!5e0!3m2!1sen!2sin!4v1635401443067!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                        <h5>BISHALGARH NEW MARKET ROAD</h5>
+                        <p>BISHALGARH, SEPAHIJALA, TRIPURA</p>
+                    </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                        <h4>MOB-8787552281</h54>
+                        <p>Monday to Saturday, 10AM to 6 PM</p>
+                    </span>
+
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                        <h5>arupdeb20010@gmail.com</h5>
+                        <p>Email Id</p>
+                    </span>
+
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="formangular.php" method="post">
+                        <h2>MAIL US</h2>
+                        <input type="text" name="name" placeholder="Enter your Name" required>
+                        <input type="Email" name="email" placeholder="Enter your Mail id" required>
+                        <input type="text" name="subject" placeholder="Enter your Subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Your Query</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <!---javaScript for menu-->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <!--Footer-->
+        <section class="footer">
+            <h2>About Us</h2>
+            <p>A school is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers. Most countries have systems of formal education, which is sometimes compulsory.[2]
+                In these systems, students progress through a series of schools. The names for these schools vary by country (discussed in the Regional section below) but generally include primary school for young children and secondary school for teenagers
+                who have completed primary education. An institution where higher education is taught, is commonly called a university college or university.</p>
+            <div class="wrapper">
+                <div class="icon instagram">
+                    <div class="tooltip">Instagram</div>
+                    <span><i class="fa fa-instagram"></i></span>
+                </div>
+                <div class="icon facebook">
+                    <div class="tooltip">Facebook</div>
+                    <span><i class="fa fa-facebook"></i></span>
+                </div>
+                <div class="icon twitter">
+                    <div class="tooltip">Twitter</div>
+                    <span><i class="fa fa-twitter"></i></span>
+                </div>
+                <div class="icon youtube">
+                    <div class="tooltip">Youtube</div>
+                    <span><i class="fa fa-youtube"></i></span>
+                </div>
+
+
+            </div>
+            <h3> made with <i class="fa fa-heart-o"></i>by Arup deb</h3>
+        </section>
+
+
+
+
+    </section>
+</body>
+
+</html>
